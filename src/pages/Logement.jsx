@@ -6,7 +6,7 @@ import RatingScale from '../components/RatingScale';
 import Collapse from '../components/Collapse';
 import '../styles/Logement.scss'
 import Error from './Error';
-// useParams est importé avec tous les autres composants
+// useParams est importé avec tous les autres composants, notament "logements.json"
 
 const Logement = () => {
 
@@ -65,6 +65,6 @@ const Logement = () => {
         </section>
     )
 }
-// Dans "Header" et "Equipement" les paramètres sont récupérés par "map" dans des listes créées par "key" 
+// Dans "Header" et "Equipement" les paramètres sont récupérés par "map" qui crée un tableau, avec les listes créées par "key" (props) 
 
 export default Logement;
