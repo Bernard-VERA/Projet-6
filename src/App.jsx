@@ -17,8 +17,8 @@ function App() {
     <Routes basename="/kasa">
         <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
-        <Route path="/logement/:id" element={<Logement />}/>
-        <Route path="*" element={<Error />}/>
+        <Route path="/logement/:id" element={<Logement />} />
+        <Route path="*" element={<Error />} />
      </Routes>
     </main>
     <Footer />
