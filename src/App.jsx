@@ -14,11 +14,10 @@ function App() {
     <div className="App">
     <Header />
     <main>
-    <Routes basename="/kasa">
-        <Route path="/" element={<Navigate replace to="Home" />} />
-        <Route path="Home" element={<Home />} />
+    <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
-        <Route path="logement/:id" element={<Logement />} />
+        <Route path="/logement/:id" element={<Logement />} />
         <Route path="*" element={<Error />} />
      </Routes>
     </main>
