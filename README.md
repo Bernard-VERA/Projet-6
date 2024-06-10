@@ -1,70 +1,65 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Créez une application web de location immobilière avec React
 
-## Available Scripts
+## Kasa - Location immobilière.
 
-In the project directory, you can run:
+## Informations
+Ouvrez votre éditeur de code. Dans le répertoire du projet, tapez la commande suivante dans le terminal : `npm start`
+Cela exécute l’application en mode développement sur le port 3000
+Ouvrez "http://localhost:3000" pour l’afficher dans votre navigateur.
+La page se recharge automatiquement lorsque vous apportez des modifications.
+Vous pouvez également voir les erreurs signalées par Eslint dans la console.
+-----------
+![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![image](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![image](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+-----------
+## Scénario
+Vous êtes développeur front-end en freelance pour Kasa, le leader de la location d’appartements entre particuliers.  
 
-### `npm start`
+Le site de Kasa a été codé il y a maintenant plus de 10 ans en ASP.NET avec un code legacy important. Laura, la CTO, a donc lancé une refonte totale pour passer à une stack complète en JavaScript avec NodeJS côté back-end, et React côté front-end. Kasa en a également profité pour commander de nouvelles maquettes auprès de son designer habituel.  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Vous trouvez le récapitulatif suivant dans votre boîte mail :  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*Objet : Brief refonte site Kasa*  
+*De : Laura*  
+*À : Moi*  
+*Hello, Bienvenue ! Tu vas pouvoir nous aider à donner vie à un chantier sur lequel on travaille depuis plusieurs mois.*  
+  
 
-### `npm test`
+*Ton objectif : Démarrer le projet React et développer l’ensemble de l’application, les composants React, les routes React Router, en suivant les maquettes Figma (responsives !) et toutes les infos que je te donne ci-dessous. Et ce avec un code de qualité !*  
+  
+*Back-end/data : Le recrutement de la personne en charge du back-end n'est pas terminé et va prendre plus de temps que prévu. Du coup, il va falloir que tu fasses sans pour le moment. Je t'ai extrait les 20 dernières annonces de logements dans un fichier JSON pour que tu puisses construire le Front qui correspond.*  
+  
+*Design : Tu trouveras ci-joint les maquettes, sur Figma, pour le design d’interface.* 
+  
+*Contraintes fonctionnelles :*  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+*Pour le défilement des photos dans la galerie (composant Gallery) : Si l'utilisateur se trouve à la première image et qu'il clique sur "Image précédente", la galerie affiche la dernière image. Inversement, quand l'image affichée est la dernière de la galerie, si l'utilisateur clique sur "Image suivante", la galerie affiche la première image. S'il n'y a qu'une seule image, les boutons "Suivant" et "Précédent" ainsi que la numérotation n'apparaissent pas. La galerie doit toujours rester de la même hauteur, celle indiquée sur la maquette Figma. Les images seront donc coupées et centrées dans le cadre de l’image.*  
 
-### `npm run build`
+*Collapse : Par défaut, les Collapses sont fermés à l'initialisation de la page. Si le Collapse est ouvert, le clic de l'utilisateur permet de le fermer. Inversement, si le Collapse est fermé, un clic permet de l'ouvrir.*  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+*Très bonne journée à toi !*  
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+*Laura, CTO*
 
-### `npm run eject`
+## Mission
+Dans ce projet, vous allez implémenter le front-end d’une application en utilisant React et React Router pour créer une expérience utilisateur moderne et réactive.  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Vous travaillerez sur la logique de présentation des données et les composants React.  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Vous utiliserez React Router pour configurer la navigation entre les différentes pages de l'application.  
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Le projet se concentrera exclusivement sur le développement front-end, en se basant sur les maquettes fournies et en utilisant des données simulées extraites d'un fichier JSON.  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Vous débuterez le projet avec Create React App, un outil qui simplifie la configuration initiale d'une application React. Vous utiliserez également Node.js pour exécuter du code JavaScript en dehors du navigateur.
 
-## Learn More
+## Compétences
+La maîtrise de React et de React Router est essentielle dans le développement web moderne, en particulier pour la création d'applications web dynamiques et réactives.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+L'utilisation de SASS pour gérer le CSS et l'implémentation d’animations CSS sont également des compétences clés pour améliorer l'expérience utilisateur.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Ces compétences vous permettront de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.  
+  
