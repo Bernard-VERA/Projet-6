@@ -54,5 +54,11 @@ Vous débuterez le projet avec Create React App, un outil qui simplifie la confi
 ## Compétences
 La maîtrise de React et de React Router est essentielle dans le développement web moderne, en particulier pour la création d'applications web dynamiques et réactives.  
 L'utilisation de SASS pour gérer le CSS et l'implémentation d’animations CSS sont également des compétences clés pour améliorer l'expérience utilisateur.  
-Ces compétences vous permettront de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.  
+Ces compétences vous permettront de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.
+
+----
+
+<p align="center" width="100%">
+    <img width="90%" src="https://github.com/Bernard-VERA/Projet-6/blob/master/src/assets/kasa.jpg"> 
+</p>
   
