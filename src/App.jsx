@@ -2,7 +2,7 @@ import './App.css';
 import Home from './pages/Home';
 import About from './pages/About';
 import Error from './pages/Error';
-import {Routes, Route, Navigate} from 'react-router-dom'
+import {Routes, Route} from 'react-router-dom'
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Logement from './pages/Logement';
