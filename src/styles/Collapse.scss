@@ -1,4 +1,4 @@
-@import "variables";
+@use "variables" as *;
 
 //Pour la compatibilité avec les navigateurs, on utilise les propriété préfixées.
 .collapse {
