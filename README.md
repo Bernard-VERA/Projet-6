@@ -57,6 +57,7 @@ L'utilisation de SASS pour gérer le CSS et l'implémentation d’animations CSS
 Ces compétences vous permettront de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.
 
 ----
+## Migration du site vers VITE
 
 <p align="center" width="100%">
     <img width="90%" src="https://github.com/Bernard-VERA/Projet-6/blob/master/src/assets/kasa.jpg"> 
