@@ -5,9 +5,9 @@
 
 ## Informations  
 
-Ouvrez votre éditeur de code. Dans le répertoire du projet, tapez la commande suivante dans le terminal : `npm start`.
-Cela exécute l’application en mode développement sur le port 3000.
-Ouvrez "http://localhost:3000" pour l’afficher dans votre navigateur.
+Si vous clonez le projet, ouvrez votre éditeur de code. Dans le répertoire du projet, tapez la commande suivante dans le terminal : `npm install` puis `npm run dev`.
+Cela exécute l’application en mode développement sur le port 5173.
+Ouvrez "http://localhost:5173" pour l’afficher dans votre navigateur.
 La page se recharge automatiquement lorsque vous apportez des modifications.
 Vous pouvez également voir les erreurs signalées par Eslint dans la console.  
 
@@ -58,10 +58,11 @@ Ces compétences vous permettront de créer des applications web interactives et
 
 ## Migration du site vers VITE
 Le site avait été initialement développé en février 2024 avec Create React App et Node.js 20.11.1.  
-Create React App ayant été déprécié en 2025, plusieurs dépendances sont devenues obsolètes et certaines vulnérabilités n’étaient plus corrigées.  
+Create React App ayant été déprécié en 2025, plusieurs dépendances sont devenues obsolètes et certaines vulnérabilités n’étaient plus corrigées. <br> 
 J’ai donc entrepris une migration complète vers :
 - Vite, un bundler moderne, plus rapide et maintenu
-- Node.js 24.14.0, dernière version LTS au moment de la migration<br><br>
+- Node.js 24.14.0, dernière version LTS au moment de la migration  
+
 Cette mise à jour permet désormais au projet d’être :
 - plus performant
 - plus léger
