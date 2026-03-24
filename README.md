@@ -57,10 +57,11 @@ L'utilisation de SASS pour gérer le CSS et l'implémentation d’animations CSS
 Ces compétences vous permettront de créer des applications web interactives et visuellement attrayantes, très demandées dans l'industrie du développement web.
 
 ## Migration du site vers VITE
-Le site avait été initialement développé en février 2024 avec Create React App et Node.js 20.11.1. Create React App ayant été déprécié en 2025, plusieurs dépendances sont devenues obsolètes et certaines vulnérabilités n’étaient plus corrigées.
+Le site avait été initialement développé en février 2024 avec Create React App et Node.js 20.11.1.  
+Create React App ayant été déprécié en 2025, plusieurs dépendances sont devenues obsolètes et certaines vulnérabilités n’étaient plus corrigées.  
 J’ai donc entrepris une migration complète vers :
 - Vite, un bundler moderne, plus rapide et maintenu
-- Node.js 24.14.0, dernière version LTS au moment de la migration
+- Node.js 24.14.0, dernière version LTS au moment de la migration<br><br>
 Cette mise à jour permet désormais au projet d’être :
 - plus performant
 - plus léger
