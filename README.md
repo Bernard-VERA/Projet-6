@@ -71,7 +71,9 @@ Cette mise à jour permet désormais au projet d’être :
 - plus simple à maintenir
 - sans vulnérabilités connues<br>  
 
-Le site est maintenant entièrement à jour et bénéficie d’un environnement moderne et sécurisé.
+Le site est maintenant entièrement à jour et bénéficie d’un environnement moderne et sécurisé.  
+
+
 ----
 
 <p align="center" width="100%">
