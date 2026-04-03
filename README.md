@@ -72,6 +72,9 @@ Cette mise à jour permet désormais au projet d’être :
 - sans vulnérabilités connues<br>  
 
 Le site est maintenant entièrement à jour et bénéficie d’un environnement moderne et sécurisé.  
+<br/>
+Vous pouvez voir le projet en cliquant ici : <a href="https://kasa-bernard-vera.vercel.app/" target="_blank">Kasa</a>  
+
 
 
 ----
